@@ -1,3 +1,9 @@
+
+/**
+ * FILE MODIFIED AS PART OF FORK
+ *  - Min SDK -> 16
+ */
+
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
@@ -6,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId "in.hbb20.countrycodepickerproject"
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 33
         versionCode 7
         versionName "2.2.4"

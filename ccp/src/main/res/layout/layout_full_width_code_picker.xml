@@ -2,6 +2,7 @@
 <!--
     FILE MODIFIED AS PART OF FORK
         - Flag presents as circular
+        - Font
 -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -53,6 +54,7 @@
             android:layout_toEndOf="@+id/linear_flag_holder"
             android:layout_toRightOf="@+id/linear_flag_holder"
             android:gravity="center"
+            android:fontFamily="@font/inter_medium"
             android:includeFontPadding="false"
             android:text="(IN) +91"
             android:textColor="@android:color/black"
